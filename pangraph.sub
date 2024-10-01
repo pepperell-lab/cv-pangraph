@@ -1,0 +1,18 @@
+universe = docker
+
+docker_image = neherlab/pangraph:latest
+executable = pangraph.sh
+
+output = pan.out
+error = pan.err
+log = pan.log
+
+transfer_executable = TRUE
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+transfer_input_files = colonyMorphotype.fa
+
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
