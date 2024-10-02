@@ -1,2 +1,2 @@
 # cv-pangraph
-pangraph analysis of nanopore sequenced colony variants 
+condor scripts for pangraph analysis of nanopore sequenced colony variants 
