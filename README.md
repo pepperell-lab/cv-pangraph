@@ -3,7 +3,7 @@ condor scripts for pangraph analysis of nanopore sequenced colony variants
 
 **pangraph.sub** generates a pangraph and exports it for downstream use
   - executable is pangraph.sh
-  - input needed: genome alignment (in our case, colonyMorphotype.fa)
+  - input needed: file containing all 6 genomes (in our case, colonyMorphotype.fa)
   - outputs: graph.json, graphExport.gfa, graphExport.fa
     
 **plotPangraph.sub** generates a Bandage visualization.
